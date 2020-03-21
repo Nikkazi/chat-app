@@ -20,7 +20,7 @@ const Contact = (props) => {
 Contact.propTypes = {
     firstName: PropTypes.string.isRequired,
     lastName: PropTypes.string.isRequired,
-    age: PropTypes.number.isRequired,
+    age: PropTypes.number.isRequired
 };
 
 export default Contact;
