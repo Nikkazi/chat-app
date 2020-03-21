@@ -1,22 +1,29 @@
 import React from 'react';
 import './App.css';
 import Contact from './components/Contact';
+
 function App() {
   return (
     <div className="App">
       <Contact
         nameavatar="https://randomuser.me/api/portraits/women/92.jpg"
-        name="Natalie"
+        firstName="Natalie"
+        lastName="Potato"
+        age={307}
         status={true}
       />
       <Contact
         nameavatar="https://randomuser.me/api/portraits/women/58.jpg"
-        name="Tamara"
+        firstName="Tamara"
+        lastName="Noodle"
+        age={508}
         status={false}
       />
       <Contact
         nameavatar="https://randomuser.me/api/portraits/men/30.jpg"
-        name="Paul"
+        firstName="Paul"
+        lastName="Ramen"
+        age={100}
         status={true}
       />
     </div>
