@@ -43,3 +43,7 @@ height:5px;
   height:5px;
   
  } 
+
+button {
+  border-radius: 5%;
+ }
